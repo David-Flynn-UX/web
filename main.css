@@ -1,0 +1,260 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+.grid-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  background-color: white;
+}
+
+.left-content {
+  position: fixed;
+  margin-top: 15%;
+}
+
+.left-grid-item {
+  background-color: white;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.grid-item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.left-hdr {
+  color: #3a3838;
+  list-style: none;
+  line-height: 1em;
+  font-weight: bold;
+  font-size: 1.5em;
+  text-align: left;
+  padding-left: 1em;
+}
+
+.social {
+  position: relative;
+  left: -8px;
+}
+
+.social img {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 30px;
+  height: auto;
+}
+
+.social li {
+  list-style: none;
+  display: inline;
+  padding-right: 1em;
+}
+
+.social li a img:hover {
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+  -webkit-transition: 200ms linear;
+  transition: 200ms linear;
+  -webkit-transition-timing-function: ease-out;
+          transition-timing-function: ease-out;
+}
+
+.page-hdr {
+  color: white;
+  font-weight: lighter;
+  font-size: .5em;
+  float: left;
+  padding-left: 5em;
+}
+
+.lwr-third {
+  color: white;
+  font-weight: 400;
+  font-size: .5em;
+  float: left;
+  padding-top: 1em;
+  padding-bottom: 6em;
+  padding-left: 5em;
+}
+
+.imgfix {
+  height: 10em;
+  padding: .5em;
+}
+
+.p-left {
+  color: #232323;
+  font-size: .5em;
+  text-align: left;
+  padding-left: 5.85em;
+}
+
+.left-btn {
+  background: #015ca8;
+  color: white;
+  font-weight: lighter;
+  font-size: .5em;
+  border-style: none;
+  border-radius: 30px;
+  padding: 15px 60px;
+  margin-top: 3em;
+  margin-left: 5.8em;
+  float: left;
+}
+
+.left-btn a {
+  text-decoration: none;
+  color: white;
+  font-weight: lighter;
+  font-size: 1em;
+}
+
+.left-btn:hover {
+  background: #f3b83b;
+  color: #015ca8;
+  cursor: pointer;
+}
+
+.yellow {
+  background: #f3b83b;
+}
+
+.yellow2 {
+  background: #f3b83b;
+}
+
+.blue {
+  background: #015ca8;
+}
+
+.cucumber {
+  background: #b4ddbf;
+}
+
+.gray {
+  background: #4b4a4a;
+}
+
+.footer {
+  background: #232323;
+  color: white;
+  font-size: 1em;
+  font-weight: lighter;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+@media screen and (max-width: 768px) {
+  .grid-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+  }
+  .left-content {
+    position: unset;
+    margin-top: 10%;
+  }
+  .left-hdr {
+    color: #3a3838;
+  }
+  .social {
+    margin-left: -45%;
+  }
+  .page-hdr {
+    padding-left: 2em;
+  }
+  .lwr-third {
+    padding-left: 10.85em;
+  }
+  .social {
+    position: relative;
+    left: -30px;
+  }
+  .yellow {
+    margin-top: 2.5em;
+  }
+  .blue {
+    margin-top: -2em;
+  }
+  .cucumber {
+    margin-top: -3em;
+  }
+  .gray {
+    margin-top: -3em;
+  }
+  .yellow2 {
+    margin-top: -3em;
+  }
+  .lwr-third {
+    margin-left: -9em;
+  }
+  .footer {
+    margin-top: -3em;
+  }
+}
+
+@media screen and (max-width: 375px) and (min-width: 360px) {
+  .grid-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+  }
+  .left-content {
+    position: unset;
+    margin-top: 10%;
+  }
+  .left-hdr {
+    color: #3a3838;
+    margin-left: -50px;
+  }
+  .page-hdr {
+    padding-left: 0px;
+  }
+  .social {
+    position: relative;
+    left: 20px;
+  }
+  .p-left {
+    padding-left: 2.5em;
+  }
+  .left-btn {
+    margin-left: 2em;
+  }
+  .imgfix {
+    height: 6em;
+    width: auto;
+  }
+  .yellow {
+    margin-top: 2em;
+  }
+  .blue {
+    margin-top: -2em;
+  }
+  .cucumber {
+    margin-top: -3em;
+  }
+  .gray {
+    margin-top: -3em;
+  }
+  .yellow2 {
+    margin-top: -3em;
+  }
+  .lwr-third {
+    margin-left: -9em;
+  }
+  .footer {
+    margin-top: -3em;
+  }
+}
+/*# sourceMappingURL=main.css.map */
